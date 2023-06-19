@@ -4,11 +4,11 @@ import os
 
 # G_TOKEN = os.environ.get('G_TOKEN')
 
-G_TOKEN="ya29.a0AWY7CklfGTJ7ZKEks6EvMXcXrDyGcdGV_lrryjX_Yty4vg0bpKraGTVXxPkgQ7tZSQVe1pxbmLuHXEAcIxmFXFdBIWlsJ2971Iu_RvG8qlBNIDp0Uz9DJE9pOyxPF-9o2GzWTnj9FQvzJphY9n7jeilueSTImidt1LJoaCgYKAWoSARESFQG1tDrpbL6aAQt02-8_EONGlNaMgA0171"
+G_TOKEN="ya29.a0AWY7CklfGTJ7ZKEks6EvMXcXrDyGcdGV_lrryjX_F-9o2GzWTnj9FQvzJphY9n7jeilueSTImidt1LJoaCgYKAWoSARESFQG1tDrpbL6aAQt02-8_EONGlNaMgA0171"
 
 class PredictModel(HttpUser):
-    ENDPOINT_ID="5268749769139814400"
-    PROJECT_ID="353405444880"
+    ENDPOINT_ID="5268749769139811111"
+    PROJECT_ID="353405444111"
     REGION = "us-central1"
     headers = {
         'Content-Type': 'application/json',

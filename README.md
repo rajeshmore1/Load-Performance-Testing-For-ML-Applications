@@ -21,8 +21,8 @@ a. Total number of users: Number of users that are going to use you ML Applicati
 
 b. Spawn Rate: spawn rate of 0.1 means number of users started per second. Starting from 1 user, we will increase the users by 0.1 per seconds. All 10 users are not simultaneously using our API endpoint.
 
-3. Host: If you have deployed your model at us-central1 location. the host would be "https://us-central1-aiplatform.googleapis.com".
-4. 
+c. Host: If you have deployed your model at us-central1 location. the host would be "https://us-central1-aiplatform.googleapis.com".
+   
 11. Once you fill above information you can see the metrics in locust ui like - Request Statistics, Response Time Statistics, Charts such as Total Request Per Second, Response Times (ms), Number of USers. One can download the report in csv format or html format and decide the most suitable machine type for your Machine Learning Application like n1-standard-2, number of accelerators, accelerator type, autoscaling metrics specifications etc.
     
 ![image](https://github.com/rajeshmore1/Load-Performance-Testing-For-ML-Applications/assets/73220561/7db44a73-881c-4d12-b923-55dd0029ab8e)
